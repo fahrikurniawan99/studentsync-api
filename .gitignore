@@ -1,5 +1,4 @@
-# Compiled binaries for the current project
-*.exe
+# Compiled binaries for the current project*.exe
 *.dll
 *.so
 *.dylib
@@ -20,7 +19,7 @@ bin/ # Direktori output build, seperti yang didefinisikan di Makefile
 *.zip            # Zipped Go Modules cache (can be created by Go)
 *.out            # Test output files
 coverage.out     # Go test coverage output
-/.env            # Environment variables (sensitive info, never commit!)
+/.env
 /.env.* # Other environment files like .env.production, .env.development etc.
 /tmp/            # Temporary files
 
